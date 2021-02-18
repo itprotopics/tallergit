@@ -35,7 +35,7 @@
       - [Solicitar un pull request](#solicitar-un-pull-request)
       - [Discutir y revisar el código](#discutir-y-revisar-el-código)
       - [Desplegar](#desplegar)
-      - [Fusionar](#fusionar)
+      - [Fusionar y etiquetar](#fusionar-y-etiquetar)
   - [Referencias](#referencias)
 
 ## Fundamentos de Git
@@ -525,13 +525,15 @@ Una vez que el pull request ha sido revisado y la rama pase las pruebas, se pued
 
 Los equipos pueden tener diferentes estrategias de despliegue. Para algunos, puede ser mejor implementar en un entorno de prueba especialmente provisto. Para otros, la implementación directamente en producción puede ser la mejor opción en función de los otros elementos de su flujo de trabajo.
 
-#### Fusionar
+#### Fusionar y etiquetar
 
 ![Alt](/images/GitHub_6.png "Title")
 
 Cuando los cambios se han verificado en producción, es hora de fusionar el código en la rama principal.
 
 Una vez fusionadas, los pull request conservan un registro de los cambios históricos en el código. Debido a que se pueden buscar, permiten que cualquiera retroceda en el tiempo para comprender por qué y cómo se tomó una decisión.
+
+Adicional, la etiqueta  puede proporcionar información útil de como ha evolucionado el proyecto en el tiempo
 
 
 ## Referencias
