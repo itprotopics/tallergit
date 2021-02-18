@@ -81,7 +81,7 @@ $ git commit -m “Se agrega una nueva clase”
 # Realizar una modificación y realizar un nuevo commit al repo local
 
 # Publicar la rama develop en el repo origin (remoto)
-$ git push origi develop
+$ git push origin develop
 ```
 
 ### Guardando cambios en el repositorio
@@ -199,6 +199,9 @@ $ git checkout -b develop master
 
 # Validar la rama actual (debe ser la rama develop)
 $ git branch
+
+# Crear una rama a partir de un commit específico
+$ git branch <nombre-rama> <sha1-commit>
 ```
 
 #### Fusionar una rama
